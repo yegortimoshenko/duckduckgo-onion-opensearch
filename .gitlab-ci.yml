@@ -1,0 +1,10 @@
+image: nixos/nix
+
+pages:
+  stage: deploy
+  script: ":"
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
